@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifique!</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- linka um arquivo css, se clicar com o control em cima do nome da pra criar um-->
+    
+</head>
+<body onload="carregar()"> <!--Quando a página carregar, eu vou chamar o carregar () -->
+     <header>
+        <h1>Verificador de Idade</h1>
+     </header>
+     <section>
+        <div>
+            <p>
+                Ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min=1900> <!--Cria um espaçozinho do tipo number--> 
+                </p>
+            <p>
+                Sexo: 
+                    <input type="radio" name="radsex" id="masc" checked> <!--o checked faz ja aparecer marcado-->
+                    <label for="masc">Masculino</label> <!--Coloca nome no input ali-->
+                    <input type="radio" name="radsex" id="fem"> <!-- Se os radio tiver o msm nome da pra marcar os 2-->
+                    <label for="fem">Feminino</label>
+                </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id='res'>
+            Preencha os dados acima para receber o resultado.
+        </div>
+     </section>
+     <footer>
+        <p>&copy; aryaneladeira </p> <!-- simbolo dod copyright-->
+     </footer>
+     <script src="script.js"></script> <!--Linka um arquivo js, msm coisa com o css-->
+</body>
+</html>

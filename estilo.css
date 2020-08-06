@@ -1,0 +1,32 @@
+body {
+    background: rgb(93, 203, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: normal 15pt;
+}
+
+header {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+img#foto {
+    padding-top: 10px;
+} 
+
+section {
+    background: white;
+    border-radius: 10px;  /* borda arredondada*/
+    padding: 30px; /* faz a "caixinha" ficar maior */
+    width: 500px; /* largura da caixinha */
+    margin: auto; /* margem automatica */
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(10, 87, 138, 0.548); /* sombreamento na caixa */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
